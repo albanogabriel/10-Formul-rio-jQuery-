@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1{
+    margin-bottom: 16px;
+}
+
+form{
+    width: 350px;
+}
+
+form ul li{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 6px 0;
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+form ul li label{
+    font-weight: bold;
+}
+
+form ul li input{
+    padding: 8px 8px;
+}
+
+form button{
+    background-color: rgb(61, 61, 61);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 16px 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(255, 255, 255);
+    border:2px solid rgb(69, 69, 69);
+    color: rgb(69, 69, 69);
+}
+

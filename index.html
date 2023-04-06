@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Formulário de Cadastro</h1>
+        <form id="form">
+            <ul>
+                <li>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Ex: Gabriel Albano">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Ex: albanogabriel33@gmail.com">
+                </li>
+                <li>
+                    <label for="tel">Telefone</label>
+                    <input type="tel" name="tel" id="tel">
+                </li>
+                <li>
+                    <label for="cpf">CPF</label>
+                    <input type="text" name="cpf" id="cpf">
+                </li>
+                <li>
+                    <label for="endereco">Endereço Completo</label>
+                    <input type="text" name="endereco" id="endereco" placeholder="Ex: Avenida Jorge Lacerda, 1985">
+                </li>
+                <li>
+                    <label for="cep">CEP</label>
+                    <input type="text" name="cep" id="cep">
+                </li>
+            </ul>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="/js/jquery.mask.min.js"></script>
+<script src="./js/jquery.validate.min.js"></script>
+<script src="./js/messages_pt_BR.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
